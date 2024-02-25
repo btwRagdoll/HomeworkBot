@@ -1,0 +1,33 @@
+{
+    "name": "HomeworkBot",
+    "description": "Simple homework bot.",
+    "logo": "",
+    "keywords": [
+        "telegram",
+        "telethon",
+        "homework-bot",
+        "RiotOreo"
+    ],
+    "repository": "https://github.com/btwragdoll/homeworkBot",
+    "website": "samarth.cloud",
+    "success_url": "https://t.me/RiotOreo",
+    "env": {
+        "API_HASH": {
+            "description": "You API HASH from my.telegram.org",
+            "value": ""
+        },
+        "APP_ID": {
+            "description": "You API ID from my.telegram.org",
+            "value": ""
+        },
+        "BOT_TOKEN": {
+            "description": "Bot token, get it from @BotFather.",
+            "value": ""
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
+}

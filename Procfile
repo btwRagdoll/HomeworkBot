@@ -1,0 +1,1 @@
+RiotOreo: python -m HomeworkBot
